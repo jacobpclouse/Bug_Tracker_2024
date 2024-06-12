@@ -1,2 +1,2 @@
-# Encrypt_File_Program
-This program will be a stand alone program to encrypt a file on your operating system without using zip files
+# Graph_API_Parser
+This program will help users visualize Graph API Endpoints for use in HTTP Requests
