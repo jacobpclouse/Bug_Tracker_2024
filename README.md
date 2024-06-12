@@ -15,3 +15,6 @@ POWERAUTOMATE: Allow users to then take the built out uri and format it for the 
 ## How To Run:
 1) Clone app and cd into the folder
 2) For Live Reload, use ```dotnet watch run``` 
+
+## Resources Used:
+- Teams Graph API: https://learn.microsoft.com/en-us/graph/api/resources/teams-api-overview?view=graph-rest-1.0
