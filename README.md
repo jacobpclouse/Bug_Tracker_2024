@@ -1,20 +1,12 @@
-# Graph_API_Parser
-URL BUILDER: So the user can graphically build out the possible graph api uris based on the body, input, etc in powerautomate (get all the possible apps from the docs), and allow them to copy the build url string
-    - Dropdown with program, what attributes
+# Bug Tracker 2024
+- Web app in C# that allows for users to track bugs
 
-POWERAUTOMATE: Allow users to then take the built out uri and format it for the use in powerautomate, they would just need to specify if the input is body, output, etc.
-    - Have them paste in the result into Expression view
+## To run Tracker itself
+- Cd into Bug_Tracker_App
+- Install Dependancies 
+- Run with dotnet watch run (for live reloads)
 
-?? GENERATE BEARER TOKEN: Potentially have this app generate a bearer token so they can use it with Postman. 
-    - Have it GET and display results / save results to a json file
 
-## Features:
-- ms authentication (browser/graph/azure auth)
-- show potential uri paths (options for overarching uri)
-
-## How To Run:
-1) Clone app and cd into the folder
-2) For Live Reload, use ```dotnet watch run``` 
-
-## Resources Used:
-- Teams Graph API: https://learn.microsoft.com/en-us/graph/api/resources/teams-api-overview?view=graph-rest-1.0
+# Packages to install
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+dotnet add package Microsoft.EntityFrameworkCore.Design

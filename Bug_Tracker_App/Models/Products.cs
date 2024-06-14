@@ -1,5 +1,4 @@
-// for teams data
-namespace TeamsGettersSetters
+namespace Bug_Tracker_App.Models
 {
     public class Product
     {
