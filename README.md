@@ -11,5 +11,10 @@
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite
 dotnet add package Microsoft.EntityFrameworkCore.Design
 
+dotnet add package Newtonsoft.Json
+dotnet add package System.Data.SQLite
+
+
+
 ## Resources used:
 - https://api.stackexchange.com/docs
