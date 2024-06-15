@@ -1,0 +1,57 @@
+@model List<Bug_Tracker_2024.Models.Issue>  // Adjust namespace and model name as per your project structure
+
+<h1>Issues</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Issue ID</th>
+            <th>Reporter</th>
+            <th>Title</th>
+            <th>Description</th>
+            <!-- Add more columns as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var issue in Model)
+        {
+            <tr>
+                <td>@issue.Id</td>
+                <td>@issue.IssueReporter</td>
+                <td>@issue.IssueTitle</td>
+                <td>@issue.IssueDescription</td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+@* @model List<Issue>
+
+<h1>Issues List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Reporter</th>
+            <th>Date</th>
+            <th>Title</th>
+            <!-- Add more columns as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var issue in Model)
+        {
+            <tr>
+                <td>@issue.Id</td>
+                <td>@issue.IssueReporter</td>
+                <td>@issue.IssueDate.ToShortDateString()</td>
+                <td>@issue.IssueTitle</td>
+                <!-- Add more cells for other properties -->
+            </tr>
+        }
+    </tbody>
+</table> *@
