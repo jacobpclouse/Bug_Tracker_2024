@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bug_Tracker_App", "Bug_Tracker_App\Bug_Tracker_App.csproj", "{70CEBF74-C38F-45F6-8AE7-ACBBA9C0A085}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generate_Issues_DB_App", "Generate_Issues_DB_App\Generate_Issues_DB_App.csproj", "{54E3742C-DA20-41CA-BAD7-AE486930AF24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70CEBF74-C38F-45F6-8AE7-ACBBA9C0A085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CEBF74-C38F-45F6-8AE7-ACBBA9C0A085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CEBF74-C38F-45F6-8AE7-ACBBA9C0A085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CEBF74-C38F-45F6-8AE7-ACBBA9C0A085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E3742C-DA20-41CA-BAD7-AE486930AF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E3742C-DA20-41CA-BAD7-AE486930AF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E3742C-DA20-41CA-BAD7-AE486930AF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E3742C-DA20-41CA-BAD7-AE486930AF24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08952CCA-6134-4627-8F77-EFA3B2D15DD0}
+	EndGlobalSection
+EndGlobal
