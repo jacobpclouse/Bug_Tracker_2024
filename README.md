@@ -31,3 +31,4 @@ dotnet add package System.Data.SQLite -->
 - want to write my own unit tests that make sense
 - want to write my own integration tests
 - want to write my own documentation
+- have a page of template requests (ie: request hardware, network outage, fix printer, onboard employee, etc)
